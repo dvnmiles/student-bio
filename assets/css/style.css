@@ -15,7 +15,7 @@
     padding: 40px;
     text-align: center;
     background: #13293d;
-    color: rgb(24, 7, 7);
+    color: #fff;
   }
   
   /* 
@@ -24,11 +24,11 @@
   */
   nav {
     display: flex;
-    background-color: #793200;
+    background-color: #d8a47f;
   }
   
   nav a {
-    color: #3c0064;
+    color: #13293d;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
@@ -45,7 +45,7 @@
   
   aside {
     flex: 1;
-    background-color: #887575;
+    background-color: #b9c6ae;
     padding: 80px;
     text-align: center;
   }
@@ -54,7 +54,7 @@
   footer {
     padding: 20px;
     text-align: center;
-    background: #793200;
+    background: #13293d;
     color: #fff;
   }
   
