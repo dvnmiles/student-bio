@@ -3,6 +3,17 @@
 * {
     box-sizing: border-box;
   }
+
+  
+/* hero styling */
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/NEED IMAGE.jpg");
+  background-size: cover;
+  background-position: center;
+}
   
   /*applies arial font to text in body of linked html doc*/
   body {
@@ -15,7 +26,7 @@
     padding: 40px;
     text-align: center;
     background: #13293d;
-    color: #fff;
+    color: rgb(24, 7, 7);
   }
   
   /* 
@@ -24,11 +35,11 @@
   */
   nav {
     display: flex;
-    background-color: #d8a47f;
+    background-color: #793200;
   }
   
   nav a {
-    color: #13293d;
+    color: #3c0064;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
@@ -45,7 +56,7 @@
   
   aside {
     flex: 1;
-    background-color: #b9c6ae;
+    background-color: #887575;
     padding: 80px;
     text-align: center;
   }
@@ -54,7 +65,7 @@
   footer {
     padding: 20px;
     text-align: center;
-    background: #13293d;
+    background: #793200;
     color: #fff;
   }
   
