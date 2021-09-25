@@ -9,28 +9,30 @@ _____________________________________________________
 ------------------------------------------------------
 
 
-I. WHEN I load their portfolio
+XI. WHEN I load their portfolio
 
-A. THEN I am presented with the developer's 
+XA. THEN I am presented with the developer's 
 
-1. name, 
-2. a recent photo or avatar, 
-3. and links to sections about:
-    a. them, 
-    b. their work, 
-    c. and how to contact them
+X1. name, 
+X2. a recent photo or avatar, 
+X3. and links to sections about:
+    Xa. them, 
+    Xb. their work, 
+    Xc. and how to contact them
 
 ------------------------------------------------------
 
-II. WHEN I click one of the links in the navigation
+XII. WHEN I click one of the links in the navigation
 
-A. THEN the UI scrolls to the corresponding section
+XA. THEN the UI scrolls to the corresponding section
 
 ------------------------------------------------------
 
 III. WHEN I click on the link to the section about their work
 
-A. THEN the UI scrolls to a section with titled images of the developer's applications
+A. THEN the:
+    1. UI scrolls to a section with 
+        a. titled images of the developer's applications
 
 ------------------------------------------------------
 
