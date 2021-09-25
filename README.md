@@ -1,22 +1,58 @@
 # student-bio
-Devin Miles
+Devin Miles (Hint: Think 'Kit')
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
 GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+_____________________________________________________
+------------------------------------------------------
+
+
+I. WHEN I load their portfolio
+
+A. THEN I am presented with the developer's 
+
+1. name, 
+2. a recent photo or avatar, 
+3. and links to sections about:
+    a. them, 
+    b. their work, 
+    c. and how to contact them
+
+------------------------------------------------------
+
+II. WHEN I click one of the links in the navigation
+
+A. THEN the UI scrolls to the corresponding section
+
+------------------------------------------------------
+
+III. WHEN I click on the link to the section about their work
+
+A. THEN the UI scrolls to a section with titled images of the developer's applications
+
+------------------------------------------------------
+
+IV. WHEN I am presented with the developer's first application
+
+    A. THEN that application's image should be larger in size than the others
+
+------------------------------------------------------
+
+
+V. WHEN I click on the images of the applications
+
+    A. THEN I am taken to that deployed application
+
+------------------------------------------------------
+VI. WHEN I resize the page or view the site on various screens and devices
+   A. THEN I am presented with a responsive layout that adapts to my viewport
+
+------------------------------------------------------
+______________________________________________________
+
+
 
 Grading Requirements
 This challenge is graded based on the following criteria:
