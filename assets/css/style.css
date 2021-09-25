@@ -132,6 +132,17 @@
     height: auto;
   }
   
+/* application image styling */
+.applications {
+  height: 250px;
+  width: 75%;
+  margin-bottom: 25px;
+  background-image: url("../images/NEED IMAGE.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
   /* 
   What does the flex-direction property define?
   What is it doing here? 
