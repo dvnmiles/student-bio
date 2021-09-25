@@ -119,6 +119,18 @@
     height: auto;
     float: left;
   }
+
+  .applications img {
+    width: 50px;
+    border-style: solid;
+    border-color: blanchedalmond;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px; /*50px*/
+    flex: 0 0 400px;
+    max-width: 100%;
+    height: auto;
+  }
   
   /* 
   What does the flex-direction property define?
