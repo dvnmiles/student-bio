@@ -25,8 +25,21 @@
   header {
     padding: 40px;
     text-align: center;
-    background: #13293d;
-    color: rgb(24, 7, 7);
+    background: #ADD8E6;
+    color: #191970;
+  }
+
+  .profile img {
+    width: 100px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px; /*50px*/
+    flex: 0 0 400px;
+    max-width: 100%;
+    height: auto;
+    float: left;
   }
   
   /* 
@@ -35,7 +48,7 @@
   */
   nav {
     display: flex;
-    background-color: #793200;
+    background-color: #e6e6fa;
   }
   
   nav a {
@@ -56,7 +69,7 @@
   
   aside {
     flex: 1;
-    background-color: #887575;
+    background-color: lavender;
     padding: 80px;
     text-align: center;
   }
@@ -65,17 +78,27 @@
   footer {
     padding: 20px;
     text-align: center;
-    background: #793200;
-    color: #fff;
+    background: lavender;
+    color: lightskyblue;
   }
   
   /* 
   What does the justify-content property do? 
   TODO: Aligns the content of the element to the specified alingment  
   */
-  .products {
+  .body {
     flex: 4;
-    background-color: #fff;
+    background-color: #dcae96;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .content
+  {
+    flex: 4;
+    background-color: #dcae96;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +115,9 @@
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
-    flex: 0 0 400px;
+    flex: 0 0 800px;
+    background-color: lavender;
+    justify-content: center;
   }
   
   .card header {
@@ -107,7 +132,9 @@
     width: 100%;
   }
 
-  .profile img {
+  
+
+  .contact-info img {
     width: 100px;
     border-style: solid;
     border-color: aqua;
@@ -123,7 +150,7 @@
   .applications img {
     width: 50px;
     border-style: solid;
-    border-color: blanchedalmond;
+    border-color: #e6e6fa;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px; /*50px*/
@@ -141,6 +168,16 @@
   background-size: cover;
   background-position: center;
 }
+.apps-sub1{ 
+  flex: 4;
+  background-color: #dcae96;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+    
+
 
 
   /* 
