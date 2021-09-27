@@ -20,18 +20,15 @@
   border-width: 1px;
   border-radius: 10px;
   padding: 10px; /*50px*/ 
+ }
  
-
-}
-
-  
-  /*applies arial font to text in body of linked html doc*/
+  /*BODY*/
   body {
     font-family: Arial;
     margin: 0;
   }
   
-  /*applies 40 pixels of space around objects, centers the text, and colors the background blue*/
+  /*HEADER*/
   header {
     position: relative;
     width: 100%;
@@ -72,10 +69,6 @@
     justify-content: left;
   }
   
-  /* 
-  What happens when we set the display property to flex? 
-  TODO: Displays the targeted element as a block-level flex container
-  */
   nav {
     display: flex;
     background-color: black;
@@ -88,10 +81,6 @@
     text-align: center;
   }
   
-  /* 
-  What is the flex-wrap property? 
-  TODO: The flex-wrap property allows elements to show on the page without having to scroll horizontally 
-  */
   main {
     display: flex;
     flex-wrap: wrap;
@@ -116,10 +105,6 @@
     height: 2.5rem;
   }
   
-  /* 
-  What does the justify-content property do? 
-  TODO: Aligns the content of the element to the specified alingment  
-  */
   .body {
     flex: 4;
     background-color: gray;
@@ -138,20 +123,13 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-  /* 
-  What is the flex property a shorthand property for?
-  What is it doing here? 
-  TODO:  The flex property is shorthand for setting flex items to either get bigger or smaller to fit the flex container on the screen.
-  Here the property is giving the flexbox an area of 400px*/
- 
  
   .card {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
-    flex: 0 0 800px;
+    flex: 0 0 400px;
     background-color: gray;
     justify-content: center;
   }
@@ -214,13 +192,6 @@
 }
     
 
-
-
-  /* 
-  What does the flex-direction property define?
-  What is it doing here? 
-  TODO: THe flex-direction property defines the direction that the boxes align. Here the flex box is organizinng the boxrs in a column.
-  */
   @media screen and (max-width: 768px) {
     main,
     nav {
