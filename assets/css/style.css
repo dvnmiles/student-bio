@@ -7,10 +7,10 @@
   
 /* hero styling */
 .hero {
-  height: 800px;
-  width: 100%;
+  height: 200px;
+  width: 25%;
   margin-bottom: 25px;
-  background-image: url("../images/NEED IMAGE.jpg");
+  background-image: url("../images/firstApp.svg");
   background-size: cover;
   background-position: center;
 }
@@ -25,14 +25,14 @@
   header {
     padding: 40px;
     text-align: center;
-    background: #ADD8E6;
-    color: #191970;
+    background: black;
+    color:red;
   }
 
   .profile img {
     width: 100px;
     border-style: solid;
-    border-color: rgb(0, 0, 0);
+    border-color: red;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px; /*50px*/
@@ -41,6 +41,22 @@
     height: auto;
     float: left;
   }
+
+  .card img {
+    display: flexbox;
+    flex: 0 0 100px;
+
+    
+    border-style: solid;
+    border-color:red;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px; /*50px*/
+    
+    max-width: 25%;
+    height: auto;
+    justify-content: left;
+  }
   
   /* 
   What happens when we set the display property to flex? 
@@ -48,11 +64,11 @@
   */
   nav {
     display: flex;
-    background-color: #e6e6fa;
+    background-color: black;
   }
   
   nav a {
-    color: #3c0064;
+    color: gray;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
@@ -69,17 +85,21 @@
   
   aside {
     flex: 1;
-    background-color: lavender;
+    background-color: black;
     padding: 80px;
     text-align: center;
   }
   
   
-  footer {
-    padding: 20px;
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: black;
     text-align: center;
-    background: lavender;
-    color: lightskyblue;
+    height: 2.5rem;
   }
   
   /* 
@@ -88,7 +108,7 @@
   */
   .body {
     flex: 4;
-    background-color: #dcae96;
+    background-color: gray;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -98,7 +118,7 @@
   .content
   {
     flex: 4;
-    background-color: #dcae96;
+    background-color: gray;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -116,7 +136,7 @@
     border-radius: 10px;
     padding: 10px;
     flex: 0 0 800px;
-    background-color: lavender;
+    background-color: gray;
     justify-content: center;
   }
   
@@ -137,7 +157,7 @@
   .contact-info img {
     width: 100px;
     border-style: solid;
-    border-color: aqua;
+    border-color: red;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px; /*50px*/
@@ -150,7 +170,7 @@
   .applications img {
     width: 50px;
     border-style: solid;
-    border-color: #e6e6fa;
+    border-color: red;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px; /*50px*/
@@ -170,7 +190,7 @@
 }
 .apps-sub1{ 
   flex: 4;
-  background-color: #dcae96;
+  background-color: gray;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
