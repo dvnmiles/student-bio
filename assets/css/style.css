@@ -7,13 +7,23 @@
   
 /* hero styling */
 .hero {
-  height: 200px;
-  width: 25%;
+  height: 300px;
+  width: 300px;
   margin-bottom: 25px;
-  background-image: url("../images/firstApp.svg");
+  background-image: url("../images/runBuddy.svg");
   background-size: cover;
   background-position: center;
+  display: flex;
+  flex: 0 0 100px; 
+  border-style: solid;
+  border-color:red;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px; /*50px*/ 
+ 
+
 }
+
   
   /*applies arial font to text in body of linked html doc*/
   body {
@@ -23,36 +33,40 @@
   
   /*applies 40 pixels of space around objects, centers the text, and colors the background blue*/
   header {
-    padding: 40px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 5px;
     text-align: center;
     background: black;
     color:red;
   }
 
-  .profile img {
-    width: 100px;
+  .header {
+    position: relative;
+    width: 100%;
+  }
+
+  .header img {
+    width: 50px;
     border-style: solid;
     border-color: red;
     border-width: 1px;
     border-radius: 10px;
-    padding: 10px; /*50px*/
+    display: flex;
     flex: 0 0 400px;
     max-width: 100%;
-    height: auto;
     float: left;
   }
 
   .card img {
-    display: flexbox;
-    flex: 0 0 100px;
-
-    
+    display: flex;
+    flex: 0 0 100px; 
     border-style: solid;
     border-color:red;
     border-width: 1px;
     border-radius: 10px;
-    padding: 10px; /*50px*/
-    
+    padding: 10px; /*50px*/ 
     max-width: 25%;
     height: auto;
     justify-content: left;
@@ -130,6 +144,8 @@
   What is it doing here? 
   TODO:  The flex property is shorthand for setting flex items to either get bigger or smaller to fit the flex container on the screen.
   Here the property is giving the flexbox an area of 400px*/
+ 
+ 
   .card {
     border-style: solid;
     border-width: 1px;
@@ -145,7 +161,7 @@
   }
   
   .card p {
-    text-align: center;
+    text-align: left;
   }
   
   .card img {
